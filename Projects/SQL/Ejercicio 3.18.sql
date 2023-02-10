@@ -1,0 +1,11 @@
+DECLARE @N INT
+	SET @N = 2
+
+WHILE @N<=23
+	BEGIN
+	IF FLOOR(@N/2)*2 = @N
+		BEGIN
+		SELECT @N
+		END
+	SET @N = @N+1
+END
