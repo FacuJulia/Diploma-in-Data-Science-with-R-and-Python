@@ -1,0 +1,70 @@
+?help
+
+DIRECTORIOS
+getwd()
+setwd(" ")
+
+MAS USADAS
+rnorm( )
+seq( )
+c( )
+
+mean()
+min()
+max()
+unique()
+length()
+sum()
+prod()
+mode()
+matrix(c(), nrow= , ncol= )
+as.data.frame()
+
+matrix[fila, columna] <- valor
+df$V1
+colnames(df) <- c( )
+cbind( )
+rbind( )
+
+BASES DE DATOS
+write.csv( )
+read.csv( )
+library(datasets)
+data(iris)
+head(iris)
+
+CONVERSIONES
+as.numeric()
+
+CONDICIONAL
+if( )
+{
+}else{
+}
+
+CICLO DEFINIDO
+for(i in 1:5){
+}
+
+CICLO INDEFINIDO
+while( ){
+}
+
+GRAFICOS
+sin()
+plot()
+points()
+lines()
+
+FUNCIONES ESTADISTICAS
+dunif()
+punif()
+qunif()
+runif()
+
+dnorm()
+pnorm()
+qnorm()
+rnorm()
+
+hist()
