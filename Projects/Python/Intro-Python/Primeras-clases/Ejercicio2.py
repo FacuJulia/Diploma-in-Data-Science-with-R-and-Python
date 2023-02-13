@@ -1,18 +1,14 @@
-#Paquete Numpy
+# Definicion de clases con encapsulamiento y metodo
 
-import numpy
+class Coche():
+	__marca = "Toyota"
 
-lista = [2, 4, 6, 8, 10, 12]
+	def verMarca(self):
+		return self.__marca
 
-#vector = numpy.array(lista)
+#Programa
 
-print("Lista original: ",lista)
+Auto = Coche()
 
-vector+1
-vector*2
-lista*2
-vector+vector2
-vector*vector2
+print("La marca del auto 1 es: ", Auto.verMarca())
 
-type(vector[1])
-type(vector)

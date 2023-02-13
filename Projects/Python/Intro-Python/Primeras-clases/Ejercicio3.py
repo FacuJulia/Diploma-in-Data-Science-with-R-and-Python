@@ -1,23 +1,19 @@
-#Paquete numpy - error, estadistica y matriz
+# Definicion de clase con encapsulamiento, metodo y constructor
 
-lista1=[1,2,3,4]
-lista2=[5,6,7]
+class Coche():
+	def __init__(self, marca1):
+		self.__marca = marca1
 
-v1=numpy.array(lista1)
-v2=numpy.array(lista2)
+	def verMarca(self):
+		return self.__marca
 
-v1+v2 #distinto largo error
+# Programa
 
-prom1 = numpy.mean(v1)
-prom2 = numpy.mean(v2)
+Auto1 = Coche("Ford")
+Auto2 = Coche("Audi")
 
-v3 = v1[2:4]
-v4 = numpy.zeros(3)
-v5 = numpy.ones(4)
+print("La marca del auto 1 es: ", Auto1.verMarca())
+print("La marca del auto 2 es: ", Auto2.verMarca())
 
-type(v5[1])
-
-dims = (3,4) #tupla
-
-matriz = numpy.zeros(dims)
-matriz.shape
+Auto1 = Coche("Toyoya")
+print("La marca del auto 1 es: ", Auto1.verMarca())
