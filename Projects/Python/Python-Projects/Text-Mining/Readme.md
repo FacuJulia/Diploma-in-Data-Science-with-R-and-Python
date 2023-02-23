@@ -1,5 +1,7 @@
 # Text Mining 
 
+![](https://github.com/FacuJulia/Diploma-in-Data-Science-with-R-and-Python/blob/main/Projects/Python/Python-Projects/Text-Mining/image/WordCloud.PNG)
+
 * What is text mining?
 
 Text mining, also known as text data mining, is the process of transforming unstructured text into a structured format to identify meaningful patterns and new insights. By applying advanced analytical techniques, such as Naïve Bayes, Support Vector Machines (SVM), and other deep learning algorithms, companies are able to explore and discover hidden relationships within their unstructured data. Text is a one of the most common data types within databases. Depending on the database, this data can be organized as:
@@ -16,3 +18,4 @@ https://www.ibm.com/topics/text-mining
 
 The process of computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine whether the writer's attitude towards a particular topic, product, etc. is positive, negative, or neutral. The example we’ll use here is classifying tweets as either postive, negative or neutral.
 
+![](https://github.com/FacuJulia/Diploma-in-Data-Science-with-R-and-Python/blob/main/Projects/Python/Python-Projects/Text-Mining/image/sa.jpeg)
